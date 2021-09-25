@@ -1,0 +1,117 @@
+
+body{
+  margin:0;
+  padding:0;
+  border:0;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+}
+
+.side-bar{
+  padding: 0 0 33.75rem;
+  background: hsla(217, 100%, 50%, 1);
+  background: linear-gradient(315deg, hsla(217, 100%, 50%, 0.9) 28%, hsla(185, 66%, 65%, 1) 100%);
+  background: -moz-linear-gradient(315deg, hsla(217, 100%, 50%, 0.9) 28%, hsla(185, 66%, 65%, 1) 100%);
+  background: -webkit-linear-gradient(315deg, hsla(217, 100%, 50%, 0.9) 28%, hsla(185, 66%, 65%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#6DD8E1", GradientType=1 );
+  width:20%;
+  display: inline-flex;
+  position: fixed;
+  top:0;
+}
+.side-bar ul{
+  padding: 4rem 0 4rem;
+  list-style-type: none;
+  font-size: 1.25rem;
+  line-height: 2;
+  display: inline-block;
+  width:100%;
+}
+.side-bar ul li{
+  padding-left: 1rem;
+  font-weight: 400;
+  color:#fff;
+}
+.side-bar ul li a{
+  text-decoration: none;
+  color:#fff;
+}
+.side-bar ul li a:hover{
+  background-color: #3c97fe;
+}
+.side-bar ul .dashboard{
+  padding-left: 1rem;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.side-bar ul .dashboard{
+  padding-left: 1rem;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.side-bar ul .Appointment{
+  padding-left: 1rem;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.side-bar ul .Appointment{
+  padding-left: 1rem;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.side-bar ul li:hover{
+  background-color: #3c97fe;
+}
+
+
+.content{
+  padding:0 0 0 22%;
+}
+
+.content h1{
+  color:#1e75ff;
+  font-size: 1.75rem;
+  padding-bottom: 1.1rem;
+}
+.content h2{
+  font-size: 1.25rem;
+  font-weight: 600;
+  opacity: 80%;
+}
+.fa-arrow-right{
+  padding-left: 0.5rem;
+}
+.text-field{
+  margin: 0.75rem 0 0.75rem 1rem;
+}
+.content1{
+  padding:0 0 0 22%;
+}
+.content1 h2{
+  font-size: 1.25rem;
+  font-weight: 600;
+  opacity: 80%;
+}
+form{
+  padding: 0 0 1rem;
+  line-height: 2;
+  font-size: 0.95rem;
+}
+form input{
+  padding-bottom: 1rem;
+}
+
+.check-btn {
+  border-radius: 0.5rem;
+  border-color: #1e75ff;
+  border: solid 1px;
+  color: #fff;
+  font-size: 17px;
+  background: #1e75ff;
+  padding: 10px 20px 10px 20px;
+
+}
+.check-btn a{
+  color:white;
+  text-decoration: none;
+}
